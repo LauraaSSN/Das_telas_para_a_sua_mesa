@@ -1,0 +1,325 @@
+:root {
+   --vermelho:#85e6c0;
+   --escuro: #6bb39b;
+   --claro:#daf3ea;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Agbalumo", system-ui;
+    border: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html ::-webkit-scrollbar {
+    width: 0.8rem;
+}
+
+html ::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html ::-webkit-scrollbar-thumb {
+    background-color: var(--escuro);
+    border-radius: 5rem;
+}
+
+body {
+    background-color: var(--claro);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-top: 1.2rem;
+    align-items: center;
+    /* margin-left: 410px; */
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-left: 420px;
+    gap: 5rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: var(--escuro);
+    display: flex;
+    transition: 0.2s;
+}
+
+
+ul li a:hover {
+    text-transform: capitalize;
+    color: var(--escuro);
+    border-bottom: solid 1px;
+    letter-spacing: 2px;
+    transition: 0.3s all;
+}
+
+hr {
+    border-bottom: solid 0.2px;
+    color: var(--vermelho);
+    margin-top: 8px;
+}
+
+.C-title {
+    margin-left: 8rem;
+    margin-top: 4rem;
+}
+
+.C-title span {
+    color: var(--escuro);
+}
+
+.C-title h1 {
+    margin-right: 6rem;
+    color: var(--vermelho);
+    text-align: center;
+    font-size: 5rem;
+}
+
+.C-title p {
+    color: var(--vermelho);
+    text-align: center;
+    margin-right: 6.8rem;
+    line-height: 2rem;
+    font-size: 2rem;
+}
+
+.C-title button {
+    margin-top: 1.8rem;
+    background-color: var(--escuro);
+    color: var(--claro);
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 498px;
+}
+
+.C-title button:hover {
+    letter-spacing: 2px;
+    transition: 0.3s all;
+}
+
+.section-1 h1 {
+    align-items: center;
+    text-align: center;
+    color: var(--escuro);
+    font-size: 2.3rem;
+}
+
+.section-1 span {
+    color: var(--vermelho);
+}
+
+.section-1 {
+    padding: 5rem;
+}
+
+.Sobre-nós {
+    display: flex;
+    align-items: center;
+    background-color: var(--escuro);
+    max-width: 100%;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.Sobre-nós img {
+    max-width: 100%;
+    width: 35rem;
+    height: auto;
+}
+
+.Sobre-nós-title {
+    margin-left: 2rem;
+}
+
+.Sobre-nós-title h2 {
+    color: var(--vermelho);
+    font-size: 2rem;
+}
+
+.Sobre-nós-title p {
+    line-height: 2.2rem;
+    text-align: justify;
+    margin-right: 2rem;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    color: var(--claro);
+    width: 45rem;
+}
+
+.Sobre-nós-title span {
+    text-decoration: underline;
+    color: var(--claro);
+}
+
+.Sobre-nós-title button {
+    margin-top: 1.8rem;
+    background-color: var(--vermelho);
+    color: var(--claro);
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 260px;
+}
+
+.Sobre-nós-title button:hover {
+    letter-spacing: 2px;
+    transition: 0.3s all;
+}
+
+.section-2 h1 {
+    text-align: center;
+    align-items: center;
+    color: var(--escuro);
+    font-size: 2.3rem;
+}
+
+.section-2 span {
+    color: var(--vermelho);
+}
+
+.container-card-1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-img {
+    border: solid 1px var(--escuro);
+    padding: 4rem;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    width: 26rem;
+    height: 26rem;
+    margin-top: 1.8rem;
+}
+
+.card-img img {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.card-img h3 {
+    font-family: "Handlee", cursive;
+    font-size: 1.8rem;
+    color: var(--vermelho);
+}
+
+.card-img p {
+    color: var(--vermelho);
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+.card-img button {
+    margin-top: 1rem;
+    background-color: var(--vermelho);
+    color: var(--claro);
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.card-img span {
+    color: var(--vermelho);
+    font-weight: lighter;
+    text-decoration: line-through var(--escuro);
+    font-size: 1.3rem;
+}
+
+.card-img:hover {
+    transform: scale(1.1);
+    transition: 0.6s;
+    background-color: var(--claro);
+}
+
+h2 {
+    color: var(--escuro);
+    font-size: 2.4rem;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+#container-card-2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+#container-card-3 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.section-4 {
+    align-items: center;
+    text-align: center;
+    color: var(--vermelho);
+    font-size: 2.3rem;
+}
+
+.section-3 span {
+    text-decoration: underline;
+    color: var(--claro);
+}
+
+.historia-img img {
+    display: flex;
+    max-width: 100%;
+    width: 35rem;
+    height: auto;
+}
+
+.historia {
+    display: flex;
+    align-items: center;
+    background-color: var(--escuro);
+    margin-top: 2rem;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.historia_title {
+    line-height: 2.2rem;
+    text-align: justify;
+    padding-top: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: var(--claro);
+}
+
+.historia_title h2 {
+    margin-left: 10px;
+    margin-top: 2px;
+    font-size: 2rem;
+    color: var(--claro);
+}
